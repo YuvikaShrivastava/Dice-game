@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-Player Dice Game</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Dice Game</h1>
+        <div id="game-status">Player 1's Turn</div>
+        <div class="dice-area">
+            <div id="dice" class="dice">🎲</div>
+            <div class="buttons">
+                <button id="roll-btn">Roll Dice</button>
+                <button id="stop-btn">Stop Rolling</button>
+            </div>
+        </div>
+        <div class="scores">
+            <div class="player1">Player 1 Score: <span id="player1-score"> 0</span></div>
+            <div class="player2">Player 2 Score: <span id="player2-score"> 0</span></div>
+        </div>
+        <div id="restrt">
+            <button id="restart-btn">Restart Game</button>
+        </div>
+    </div>
+    <script src="play.js"></script>
+</body>
+
+</html>
